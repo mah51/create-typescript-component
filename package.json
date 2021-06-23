@@ -1,0 +1,35 @@
+{
+  "name": "new-typescript-component",
+  "version": "2.0.2",
+  "description": "CLI for creating new React components",
+  "homepage": "https://github.com/mah51/new-typescript-component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mah51/new-typescript-component"
+  },
+  "bugs": {
+    "url": "https://github.com/mah51/new-typescript-component/issues"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "cli",
+    "component",
+    "boilerplate"
+  ],
+  "author": "Joshua Comeau",
+  "license": "MIT",
+  "bin": {
+    "new-typescript-component": "./src/index.js",
+    "ntc": "./src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "prettier": "1.5.3"
+  }
+}
