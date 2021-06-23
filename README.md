@@ -42,9 +42,9 @@ $ npm i -g new-typescript-component
 `cd` into your project's directory, and try creating a new component:
 
 ```bash
-$ npx new-typescript-component TestComponent
+$ npx new-typescript-component Button
 - shorthand -
-$ npx ntc TestComponent
+$ npx ntc Button
 
 ```
 Your project will now have a new directory at `src/components/Button`. This directory has two files:
