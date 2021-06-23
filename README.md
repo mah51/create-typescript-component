@@ -1,18 +1,20 @@
 <p align="center">
   <img src="https://github.com/joshwcomeau/new-component/blob/master/docs/logo@2x.png?raw=true" width="285" height="285" alt="new-component logo">
   <br>
-  <a href="https://www.npmjs.org/package/new-component"><img src="https://img.shields.io/npm/v/new-component.svg?style=flat" alt="npm"></a>
+  <a href="https://www.npmjs.org/package/new-typescript-component"><img src="https://img.shields.io/npm/v/new-typescript-component.svg?style=flat" alt="npm"></a>
 </p>
 
-# `new-component`
+# `new-typescript-component`
 
 ### Simple, customizable utility for adding new React components to your project.
 
-<img src="https://github.com/joshwcomeau/new-component/blob/master/docs/divider@2x.png?raw=true" width="888" height="100" role="presentation">
+<img src="https://github.com/mah51/new-typescript-component/blob/master/docs/divider@2x.png?raw=true" width="888" height="100" role="presentation">
+
+This package is an extension of [joshwcomeau's new-component](https://github.com/joshwcomeau/new-component) but for typescript.
 
 Anyone else sick of writing the same component boilerplate, over and over?
 
-This project is a globally-installable CLI for adding new React components. It's dead simple to use, and requires no configuration, although it's easy to customize it to fit your project's coding style.
+This project is a globally-installable CLI for adding new React Typescript components. It's dead simple to use, and requires no configuration, although it's easy to customize it to fit your project's coding style.
 
 <br />
 
