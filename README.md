@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/joshwcomeau/new-component/blob/master/docs/logo@2x.png?raw=true" width="285" height="285" alt="new-component logo">
   <br>
-  <a href="https://www.npmjs.org/package/new-typescript-component"><img src="https://img.shields.io/npm/v/new-typescript-component.svg?style=flat" alt="npm"></a>
+  <a href="https://www.npmjs.org/package/new-typescript-component"><img src="https://img.shields.io/npm/v/new-component.svg?style=flat" alt="npm"></a>
 </p>
 
 # `new-typescript-component`
@@ -33,18 +33,20 @@ Install via NPM:
 
 ```bash
 # Using Yarn:
-$ yarn global add new-component
+$ yarn global add new-typescript-component
 
 # or, using NPM
-$ npm i -g new-component
+$ npm i -g new-typescript-component
 ```
 
 `cd` into your project's directory, and try creating a new component:
 
-<p align="center">
-  <img src="https://github.com/joshwcomeau/new-component/blob/master/docs/demo.gif?raw=true" width="888" height="369" alt="demo of CLI functionality">
-</p>
+```bash
+$ npx new-typescript-component TestComponent
+- shorthand -
+$ npx ntc TestComponent
 
+```
 Your project will now have a new directory at `src/components/Button`. This directory has two files:
 
 ```jsx
